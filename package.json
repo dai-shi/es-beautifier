@@ -6,9 +6,9 @@
   "main": "./lib/main.js",
   "bin": "./lib/cli.js",
   "scripts": {
+    "test": "npm run lint && npm run unit-tests",
     "lint": "eslint lib tests",
-    "test": "npm run lint && npm run test:rules",
-    "test:rules": "echo 'TODO'",
+    "unit-tests": "mocha 'tests/**/*.js'",
     "examples": "npm run ex:js-beautify && npm run ex:uglifyjs && npm run ex:esformatter && npm run ex:es-beautifier",
     "ex:js-beautify": "js-beautify -s 2 -X < ${FILE:-'examples/a.js'} && echo",
     "ex:uglifyjs": "uglifyjs -b indent-level=2 < ${FILE:-'examples/a.js'}",
@@ -26,6 +26,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.5.0",
     "js-beautify": "^1.6.4",
+    "mocha": "^3.1.2",
     "uglify-js": "mishoo/UglifyJS2.git#harmony"
   },
   "engines": {
