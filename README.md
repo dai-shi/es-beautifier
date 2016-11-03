@@ -11,7 +11,7 @@ TODO
 ## Install (CLI)
 
 ```
-npm install es-beautifier -g --only=prod
+npm install es-beautifier -g --only=production
 ```
 
 ```
@@ -21,7 +21,5 @@ es-beautifier --help
 ## Install (eslint-plugin)
 
 ```
-npm install es-beautifier
-Or
-npm install eslint-plugin-es-beautifier (not yet)
+npm install eslint-plugin-es-beautifier
 ```
