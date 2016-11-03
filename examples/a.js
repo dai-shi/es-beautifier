@@ -1,0 +1,1 @@
+function aaa(){bbb();ccc()}
