@@ -1,0 +1,29 @@
+{
+  "name": "es-beautifier",
+  "description": "ECMAScript beautifier based on eslint",
+  "version": "0.1.0",
+  "repository": "dai-shi/es-beautifier",
+  "main": "./lib/main.js",
+  "bin": "./lib/cli.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "eslint": "^3.9.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "global-require": 0
+    }
+  },
+  "license": "MIT"
+}
