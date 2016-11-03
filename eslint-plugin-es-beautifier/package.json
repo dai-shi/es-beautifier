@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-es-beautifier",
   "description": "eslint plugin wrapper for es-beautfier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "dai-shi/es-beautifier",
   "dependencies": {
     "es-beautifier": "latest"
