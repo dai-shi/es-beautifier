@@ -38,5 +38,10 @@
       "no-console": 0
     }
   },
+  "keywords": [
+    "eslint",
+    "beautifier",
+    "beautify"
+  ],
   "license": "MIT"
 }

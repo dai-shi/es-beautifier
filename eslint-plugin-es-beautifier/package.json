@@ -6,5 +6,12 @@
   "dependencies": {
     "es-beautifier": "latest"
   },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "beautifier",
+    "beautify"
+  ],
   "license": "MIT"
 }
