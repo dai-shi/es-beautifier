@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.1.3] - 2016-11-04
 ### Added
 - Allow one line option in multiline-block-statements
 - Custom no-spaces-in-empty-block rule
