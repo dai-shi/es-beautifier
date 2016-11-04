@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Allow one line option in multiline-block-statements
 ### Misc
 - Update README.md
 
