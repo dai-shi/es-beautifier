@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Existing JSX related rules
 
 ## [0.1.3] - 2016-11-04
 ### Added
