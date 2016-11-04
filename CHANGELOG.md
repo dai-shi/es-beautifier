@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - Allow one line option in multiline-block-statements
+- Custom no-spaces-in-empty-block rule
 ### Misc
 - Update README.md
 
