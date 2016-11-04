@@ -1,7 +1,7 @@
 # es-beautifier
 
-[![Build Status](https://travis-ci.org/dai-shi/es-beautify.svg?branch=master)](https://travis-ci.org/dai-shi/es-beautify)
-[![npm version](https://badge.fury.io/js/es-beautify.svg)](https://badge.fury.io/js/es-beautify)
+[![Build Status](https://travis-ci.org/dai-shi/es-beautifier.svg?branch=master)](https://travis-ci.org/dai-shi/es-beautifier)
+[![npm version](https://badge.fury.io/js/es-beautifier.svg)](https://badge.fury.io/js/es-beautifier)
 
 ECMAScript beautifier based on [eslint](http://eslint.org/)
 
