@@ -119,6 +119,7 @@ There are several tools that do smiliar to es-beautifier.
 - [js-beautify](https://github.com/beautify-web/js-beautify)
 - [uglify-js](https://github.com/mishoo/UglifyJS2)
 - [esformatter](https://github.com/millermedeiros/esformatter)
+- [prettydiff](https://github.com/prettydiff/prettydiff)
 
 To see the comparison:
 

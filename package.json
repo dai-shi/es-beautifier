@@ -9,10 +9,11 @@
     "test": "npm run lint && npm run unit-tests",
     "lint": "eslint lib tests",
     "unit-tests": "mocha 'tests/**/*.js'",
-    "examples": "npm run ex:js-beautify && npm run ex:uglifyjs && npm run ex:esformatter && npm run ex:es-beautifier",
+    "examples": "npm run ex:js-beautify; npm run ex:uglifyjs; npm run ex:esformatter; npm run ex:prettydiff; npm run ex:es-beautifier",
     "ex:js-beautify": "js-beautify -s 2 -X < ${FILE:-'examples/a.js'} && echo",
     "ex:uglifyjs": "uglifyjs -b indent-level=2 < ${FILE:-'examples/a.js'}",
     "ex:esformatter": "esformatter < ${FILE:-'examples/a.js'}",
+    "ex:prettydiff": "prettydiff lang:javascript mode:beautify styleguide:airbnb source:${FILE:-'examples/a.js'}",
     "ex:es-beautifier": "./lib/cli.js < ${FILE:-'examples/a.js'}"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "js-beautify": "latest",
     "mocha": "^3.1.2",
+    "prettydiff": "latest",
     "uglify-js": "mishoo/UglifyJS2.git#harmony"
   },
   "engines": {
