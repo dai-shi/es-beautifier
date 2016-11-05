@@ -13,7 +13,7 @@
     "ex:js-beautify": "js-beautify -s 2 -X < ${FILE:-'examples/a.js'} && echo",
     "ex:uglifyjs": "uglifyjs -b indent-level=2 < ${FILE:-'examples/a.js'}",
     "ex:esformatter": "esformatter < ${FILE:-'examples/a.js'}",
-    "ex:prettydiff": "prettydiff lang:javascript mode:beautify styleguide:airbnb source:${FILE:-'examples/a.js'}",
+    "ex:prettydiff": "prettydiff lang:javascript mode:beautify insize:2 source:${FILE:-'examples/a.js'}",
     "ex:es-beautifier": "./lib/cli.js < ${FILE:-'examples/a.js'}"
   },
   "dependencies": {

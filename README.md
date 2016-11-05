@@ -55,9 +55,7 @@ es-beautifier file-to-be-beautified.js
 
 ## Usage (vim)
 
-### Configuration example
-
-With NeoBundle:
+### Example with NeoBundle
 
 ```
 NeoBundle 'dai-shi/es-beautifier', {'rtp': 'contrib/vim', 'external_commands': 'node', 'build_commands': 'npm', 'build': {'others': 'npm install --only=production'}}
