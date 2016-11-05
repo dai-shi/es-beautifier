@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - Existing JSX related rules
+- Basic vim plugin
 
 ## [0.1.3] - 2016-11-04
 ### Added
