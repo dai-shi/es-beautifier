@@ -4,6 +4,8 @@
 ### Added
 - Existing JSX related rules
 - Basic vim plugin
+- Custom multiline-object-properties rule
+- Custom multiline-array-expressions rule
 
 ## [0.1.3] - 2016-11-04
 ### Added
