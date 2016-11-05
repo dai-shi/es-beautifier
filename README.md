@@ -53,9 +53,29 @@ es-beautifier < file.js > file-beautified.js
 es-beautifier file-to-be-beautified.js
 ```
 
-## Usage (with editors)
+## Usage (vim)
 
-TODO
+### Configuration example
+
+With Vundle:
+
+```
+Bundle 'dai-shi/es-beautifier', {'rtp': 'contrib/vim'}
+autocmd FileType javascript nnoremap <buffer> <Leader>e :call EsBeautifier()<cr>
+autocmd FileType javascript vnoremap <buffer> <Leader>e :call RangeEsBeautifier()<cr>
+```
+
+With NeoBundle:
+
+```
+NeoBundle 'dai-shi/es-beautifier', {'rtp': 'contrib/vim'}
+autocmd FileType javascript nnoremap <buffer> <Leader>e :call EsBeautifier()<cr>
+autocmd FileType javascript vnoremap <buffer> <Leader>e :call RangeEsBeautifier()<cr>
+```
+
+## Usage (atom)
+
+Help wanted.
 
 ## Usage (eslint-plugin)
 

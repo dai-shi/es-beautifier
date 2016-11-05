@@ -3,10 +3,11 @@ if exists('g:loaded_esBeautifier')
 endif
 let g:loaded_esBeautifier = 1
 
+let s:cli_path = expand('<sfile>:p:h:h:h:h').'/lib/cli.js'
+
 function! ExecEsBeautifier(first, last)
-  let path = expand('<sfile>:p:h').'/lib/cli.js'
   let content = getline(a:first, a:last)
-  let result = system(path, content)
+  let result = system(s:cli_path, content)
   let lines = split(result, "\n")
   if len(lines)
     silent exec a:first.','.a:last.'j'
