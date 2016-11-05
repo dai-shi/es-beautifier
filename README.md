@@ -60,7 +60,7 @@ es-beautifier file-to-be-beautified.js
 With NeoBundle:
 
 ```
-NeoBundle 'dai-shi/es-beautifier', {'rtp': 'contrib/vim', 'external_commands': 'node', 'build_commands': 'npm', 'build': 'npm install --only=production'}
+NeoBundle 'dai-shi/es-beautifier', {'rtp': 'contrib/vim', 'external_commands': 'node', 'build_commands': 'npm', 'build': {'others': 'npm install --only=production'}}
 autocmd FileType javascript nnoremap <buffer> <Leader>e :call EsBeautifier()<cr>
 autocmd FileType javascript vnoremap <buffer> <Leader>e :call RangeEsBeautifier()<cr>
 ```
