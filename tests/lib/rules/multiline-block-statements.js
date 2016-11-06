@@ -9,7 +9,7 @@ ruleTester.run('multiline-block-statements', rule, {
     'function f(){a();}',
   ],
   invalid: [{
-    code: 'function f(){aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa();bbbbbbbbbbbbbbbbbbbbbbbbbbb();}',
+    code: 'function f(){a();b();}',
     errors: [1, 2, 'and finally the end'].map(() => ({
       message: 'Statement in a block must be on a new line.',
       type: 'BlockStatement',
