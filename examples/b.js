@@ -1,6 +1,7 @@
 function aaa( bbb ) {
-   }
-function ccc   (   ) {
-ddd();}
+ccc();}
+function ddd   ( a, b,
+c, d   ) {
+      }
 function eee(){fff();{ggg();{hhh();iii();}jjj();kkk();}}
-function ooo(){{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ppp();}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+function ooo(){{{{{{{{ppppppppppppppppppppppppppppppppppppppppppppppppp();}}}}}}}}
