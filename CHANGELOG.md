@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.2.0] - 2016-11-07
 ### Added
 - Existing JSX related rules
 - Basic vim plugin
