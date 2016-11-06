@@ -12,7 +12,7 @@ function! ExecEsBeautifier(first, last)
   if len(lines)
     silent exec a:first.','.a:last.'j'
     call setline(a:first, lines[0])
-    call append(a:last, lines[1:])
+    call append(a:first, lines[1:])
   endif
   return result
 endfunction

@@ -6,7 +6,7 @@ const ruleTester = new RuleTester();
 ruleTester.run('multiline-block-statements', rule, {
   valid: [
     'function f(){\na();\nb();\n}',
-    'function f(){a();}',
+    'function f(){\na();\n}',
   ],
   invalid: [{
     code: 'function f(){a();b();}',

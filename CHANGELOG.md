@@ -1,6 +1,9 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- Fix range beautifier in vim
+- Default option for multiline block statements
 
 ## [0.2.0] - 2016-11-07
 ### Added
