@@ -1,8 +1,10 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.2.2] - 2016-11-08
 ### Added
-- Integration test basic
+- Minimal integration test
 ### Changed
 - Default option for multiline block statements again
 - Simplify multiline-object-properties rule with object-curly-newline
