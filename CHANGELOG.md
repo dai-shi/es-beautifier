@@ -5,6 +5,7 @@
 - Integration test basic
 ### Changed
 - Default option for multiline block statements again
+- Simplify multiline-object-properties rule with object-curly-newline
 
 ## [0.2.1] - 2016-11-07
 ### Changed
