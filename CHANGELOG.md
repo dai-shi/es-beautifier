@@ -1,6 +1,10 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Integration test basic
+### Changed
+- Default option for multiline block statements again
 
 ## [0.2.1] - 2016-11-07
 ### Changed

@@ -6,9 +6,10 @@
   "main": "./lib/main.js",
   "bin": "./lib/cli.js",
   "scripts": {
-    "test": "npm run lint && npm run unit-tests",
+    "test": "npm run lint && npm run unit-tests && npm run integration-tests",
     "lint": "eslint lib tests",
-    "unit-tests": "mocha 'tests/**/*.js'",
+    "unit-tests": "mocha 'tests/lib/**/*.js'",
+    "integration-tests": "mocha 'tests/integration/**/*.js'",
     "examples": "npm run ex:js-beautify; npm run ex:uglifyjs; npm run ex:esformatter; npm run ex:prettydiff; npm run ex:es-beautifier",
     "ex:js-beautify": "js-beautify -s 2 -X < ${FILE:-'examples/a.js'} && echo",
     "ex:uglifyjs": "uglifyjs -b indent-level=2 < ${FILE:-'examples/a.js'}",
@@ -38,7 +39,8 @@
     "extends": "airbnb",
     "rules": {
       "global-require": 0,
-      "no-console": 0
+      "no-console": 0,
+      "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
     }
   },
   "keywords": [
