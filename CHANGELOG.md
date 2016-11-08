@@ -14,6 +14,7 @@
 - Fix range beautifier in vim
 - Default option for multiline block statements
 - Program for multiline-block-statements rule
+- Fix a bug in multiline-block-statements rule
 
 ## [0.2.0] - 2016-11-07
 ### Added
