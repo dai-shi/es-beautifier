@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.2.3] - 2016-11-10
 ### Added
 - First JSX element multiline rule
 ### Changed
