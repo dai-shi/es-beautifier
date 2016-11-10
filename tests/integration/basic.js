@@ -61,3 +61,63 @@ var x = { a: 1, b: 2, c: 3 };
     assert.equal(execCLI(input), output);
   });
 });
+
+describe('objects in arrays', () => {
+  it('object/array declaration 1', () => {
+    const input = `
+var x=[{a:1},{b:2},{c:3}];
+`;
+    const output = `
+var x = [{ a: 1 }, { b: 2 }, { c: 3 }];
+`;
+    assert.equal(execCLI(input), output);
+  });
+
+  it('object/array declaration 2', () => {
+    const input = `
+var x=[{a:1,b:2,c:3},{a:1,b:2,c:3},{a:1,b:2,c:3},{a:1,b:2,c:3},{a:1,b:2,c:3}];
+`;
+    const output = `
+var x = [{
+  a: 1,
+  b: 2,
+  c: 3,
+}, {
+  a: 1,
+  b: 2,
+  c: 3,
+}, {
+  a: 1,
+  b: 2,
+  c: 3,
+}, {
+  a: 1,
+  b: 2,
+  c: 3,
+}, {
+  a: 1,
+  b: 2,
+  c: 3,
+}];
+`;
+    assert.equal(execCLI(input), output);
+  });
+});
+
+describe('arrays in objects', () => {
+  it('array/object declaration 1', () => {
+    const input = `
+var x={a:[1,2,3],b:[1,2,3],c:[1,2,3],d:[1,2,3],e:[1,2,3]};
+`;
+    const output = `
+var x = {
+  a: [1, 2, 3],
+  b: [1, 2, 3],
+  c: [1, 2, 3],
+  d: [1, 2, 3],
+  e: [1, 2, 3],
+};
+`;
+    assert.equal(execCLI(input), output);
+  });
+});

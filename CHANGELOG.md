@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- Better multiline support
 
 ## [0.2.3] - 2016-11-10
 ### Added
