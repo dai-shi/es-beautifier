@@ -1,1 +1,1 @@
-const App = () => <div><h1>Hello</h1><div className="intro" style={{ color: 'red', fontSize: 'small' }}>This is JSX</div></div>;
+const App = () => <div><h1>Hello</h1><span className="intro" style={{ color: 'red', fontSize: 'small' }}>This is JSX</span></div>;

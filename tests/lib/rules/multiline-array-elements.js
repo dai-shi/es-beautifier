@@ -1,9 +1,9 @@
-const rule = require('../../../lib/rules/multiline-array-expressions.js');
+const rule = require('../../../lib/rules/multiline-array-elements.js');
 const RuleTester = require('eslint').RuleTester;
 
 const ruleTester = new RuleTester();
 
-ruleTester.run('multiline-array-expressions', rule, {
+ruleTester.run('multiline-array-elements', rule, {
   valid: [
     '[1,2,3]',
     '[\n1,\n2,\n3\n]',

@@ -1,6 +1,11 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- First JSX element multiline rule
+### Changed
+- Rename and tweak multiline-array-elements rule
+- Introduce es-beautifier-state
 
 ## [0.2.2] - 2016-11-08
 ### Added
