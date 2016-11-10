@@ -56,11 +56,7 @@ describe('objects', () => {
 var x={a:1,b:2,c:3};
 `;
     const output = `
-var x = {
-  a: 1,
-  b: 2,
-  c: 3,
-};
+var x = { a: 1, b: 2, c: 3 };
 `;
     assert.equal(execCLI(input), output);
   });
