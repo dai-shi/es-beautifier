@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Class body multiline support
 ### Changed
 - Better multiline support
 

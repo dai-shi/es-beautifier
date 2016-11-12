@@ -4,7 +4,7 @@ const RuleTester = require('eslint').RuleTester;
 const ruleTester = new RuleTester();
 
 const parserOptions = {
-  ecmaVersion: 6,
+  ecmaVersion: 2015,
   ecmaFeatures: { jsx: true },
 };
 
