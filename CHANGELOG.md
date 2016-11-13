@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+## [0.2.4] - 2016-11-14
+
 ### Added
 - Class body multiline support
 ### Changed
