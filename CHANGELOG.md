@@ -1,8 +1,10 @@
 # Change Log
 
 ## [Unreleased]
-## [0.2.4] - 2016-11-14
+### Changed
+- Common fixingNodes in es-beautifier-state
 
+## [0.2.4] - 2016-11-14
 ### Added
 - Class body multiline support
 ### Changed
