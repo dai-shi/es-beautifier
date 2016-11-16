@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Custom multiline-swich-cases rule
 ### Changed
 - Common fixingNodes in es-beautifier-state
 
