@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.2.5] - 2016-11-18
 ### Added
 - Custom multiline-swich-cases rule
 ### Changed
