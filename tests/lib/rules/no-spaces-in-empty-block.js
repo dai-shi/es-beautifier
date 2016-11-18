@@ -8,6 +8,7 @@ ruleTester.run('no-spaces-in-empty-block', rule, {
     'function f(){}',
     'if(true){}',
     'function f(){/*comment*/}',
+    'function f(){/*comment*/\n}',
     'function f(){//comment\n}',
   ],
   invalid: [{
