@@ -23,4 +23,20 @@ const App = () => (<div>
 `;
     assert.equal(execCLI(input), output);
   });
+
+  it('jsx 2', () => {
+    const input = `
+const App = () => (<div><Component attribute1="value1" attribute2="value2" attribute3="value3">foo</Component></div>);
+`;
+    const output = `
+const App = () => (<div>
+  <Component
+    attribute1="value1"
+    attribute2="value2"
+    attribute3="value3"
+  >foo</Component>
+</div>);
+`;
+    assert.equal(execCLI(input), output);
+  });
 });
