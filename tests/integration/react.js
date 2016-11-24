@@ -17,9 +17,11 @@ describe('jsx', () => {
 const App = () => (<div><span><a href="http://localhost/index.html">index</a></span></div>);
 `;
     const output = `
-const App = () => (<div>
-  <span><a href="http://localhost/index.html">index</a></span>
-</div>);
+const App = () => (
+  <div>
+    <span><a href="http://localhost/index.html">index</a></span>
+  </div>
+);
 `;
     assert.equal(execCLI(input), output);
   });
@@ -29,13 +31,15 @@ const App = () => (<div>
 const App = () => (<div><Component attribute1="value1" attribute2="value2" attribute3="value3">foo</Component></div>);
 `;
     const output = `
-const App = () => (<div>
-  <Component
-    attribute1="value1"
-    attribute2="value2"
-    attribute3="value3"
-  >foo</Component>
-</div>);
+const App = () => (
+  <div>
+    <Component
+      attribute1="value1"
+      attribute2="value2"
+      attribute3="value3"
+    >foo</Component>
+  </div>
+);
 `;
     assert.equal(execCLI(input), output);
   });

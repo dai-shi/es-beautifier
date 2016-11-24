@@ -13,12 +13,25 @@ ruleTester.run('jsx-multiline-elements', rule, {
     code: 'x=<div>aaa</div>',
     parserOptions,
   }, {
-    code: 'x=<div>\n  aaa\n</div>',
+    code: 'x=(<div>aaa</div>)',
+    parserOptions,
+  }, {
+    code: 'x=<div>\naaa\n</div>',
+    parserOptions,
+  }, {
+    code: 'x=(\n<div>\naaa\n</div>\n)',
     parserOptions,
   }],
   invalid: [{
     code: 'x=<div><span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span></div>',
     errors: [1, 'and finally the end'].map(() => ({
+      message: 'Element in JSX should be on a new line.',
+      type: 'JSXElement',
+    })),
+    parserOptions,
+  }, {
+    code: 'x=(<div><span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span></div>)',
+    errors: [1, 2, 3, 'and finally the end'].map(() => ({
       message: 'Element in JSX should be on a new line.',
       type: 'JSXElement',
     })),
