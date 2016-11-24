@@ -5,6 +5,7 @@
 - Custom jsx-multiline-attributes rule
 ### Changed
 - Better switch case one-line format
+- Improve jsx multiline element format
 
 ## [0.2.5] - 2016-11-18
 ### Added
