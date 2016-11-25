@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.2.6] - 2016-11-25
 ### Added
 - Custom jsx-multiline-attributes rule
 ### Changed
