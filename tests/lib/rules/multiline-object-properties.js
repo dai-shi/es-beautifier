@@ -6,6 +6,7 @@ const ruleTester = new RuleTester();
 ruleTester.run('multiline-object-properties', rule, {
   valid: [
     'x={a:1}',
+    'x={a:1,b:2,c:3}',
     'x={\na:1,\nb:2,\nc:3\n}',
   ],
   invalid: [{
