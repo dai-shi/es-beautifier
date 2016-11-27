@@ -28,7 +28,7 @@ const App = () => (
 
   it('jsx 2', () => {
     const input = `
-const App = () => (<div><Component attribute1="value1" attribute2="value2" attribute3="value3">foo</Component></div>);
+const App = () => (<div><Component attribute1="value1" attribute2="value2" attribute3={{a:1,b:2,c:3}}>foo</Component></div>);
 `;
     const output = `
 const App = () => (
@@ -36,7 +36,7 @@ const App = () => (
     <Component
       attribute1="value1"
       attribute2="value2"
-      attribute3="value3"
+      attribute3={{ a: 1, b: 2, c: 3 }}
     >foo</Component>
   </div>
 );
