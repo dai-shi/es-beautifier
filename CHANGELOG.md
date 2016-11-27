@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Changed
 - Improve object properties format in JSX
+- Hack jsx multilie element for one child Literal
 
 ## [0.2.6] - 2016-11-25
 ### Added
