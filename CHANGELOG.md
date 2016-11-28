@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.3.0] - 2016-11-29
 ### Changed
 - Improve object properties format in JSX
 - Hack jsx multilie element for one child Literal
