@@ -1,11 +1,13 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Custom jsx-separateline-literals rule
 
 ## [0.3.0] - 2016-11-29
 ### Changed
 - Improve object properties format in JSX
-- Hack jsx multilie element for one child Literal
+- Hack jsx multiline element for one child Literal
 
 ## [0.2.6] - 2016-11-25
 ### Added
