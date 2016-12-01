@@ -27,10 +27,6 @@ There's lots of plugins developed, forming a big ecosystem.
 
 So, why not build a beautifying tool using eslint?
 
-## Screencast
-
-TODO
-
 ## Usage (CLI)
 
 ### Install
