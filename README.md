@@ -108,7 +108,7 @@ npm run beautify
 
 ## Similar projects
 
-There are several tools that do smiliar to es-beautifier.
+There are several tools that do smiliar to what es-beautifier does.
 
 - [js-beautify](https://github.com/beautify-web/js-beautify)
 - [uglify-js](https://github.com/mishoo/UglifyJS2)
