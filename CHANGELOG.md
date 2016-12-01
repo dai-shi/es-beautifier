@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - Custom jsx-separateline-literals rule
+- Screenshot image
 
 ## [0.3.0] - 2016-11-29
 ### Changed
