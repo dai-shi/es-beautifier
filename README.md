@@ -5,7 +5,7 @@
 
 ECMAScript beautifier based on [eslint](http://eslint.org/)
 
-WIP
+![screenshot](https://dai-shi.github.io/es-beautifier/images/screen01.png)
 
 ## Motivation
 
