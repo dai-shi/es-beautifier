@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.4.0] - 2016-12-01
 ### Added
 - Custom jsx-separateline-literals rule
 - Screenshot image
