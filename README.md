@@ -123,3 +123,15 @@ cd es-beautifier
 npm install
 npm run examples
 ```
+
+Here's more intuitive (biased) comparison in table:
+
+|                | js-beautify | uglify-js | esformatter | prettydiff | es-beautifier |
+|----------------|-------------|-----------|-------------|------------|---------------|
+| ES2015 Parser  | Own         | Own       | Esprima     | Own        | Babel         |
+| Customization  | Limited     | No        | Plugin      | Somewhat   | Plugin        |
+| Comments       | OK          | Removed   | OK          | OK         | OK            |
+| JSX Support    | No          | Error     | No          | Limited    | Yes           |
+| Array in array | Yes         | No        | No          | Wierd      | Yes           |
+| Execution Time | Short       | Short     | Long        | Short      | Long          |
+| Completion     | Mature      | Good      | Young       | Good       | Young         |
