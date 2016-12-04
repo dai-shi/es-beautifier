@@ -1,7 +1,7 @@
 {
   "name": "vscode-es-beautifier",
   "displayName": "es-beautifier",
-  "publisher": "",
+  "publisher": "dai-shi",
   "description": "vscode plugin for es-beautfier",
   "version": "0.0.1",
   "repository": "dai-shi/es-beautifier",
