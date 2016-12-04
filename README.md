@@ -61,7 +61,15 @@ autocmd FileType javascript vnoremap <buffer> <Leader>e :call RangeEsBeautifier(
 
 ## Usage (Atom)
 
-Help wanted.
+<https://atom.io/packages/es-beautifier>
+
+Toggle the Command Palette and enter "es-beautifier".
+
+For the long term use, you might want to configure keybindings:
+```
+'atom-text-editor':
+  'shift-cmd-e': 'es-beautifier'
+```
 
 ## Usage (Visual Studio Code)
 
