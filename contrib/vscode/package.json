@@ -1,0 +1,47 @@
+{
+  "name": "vscode-es-beautifier",
+  "displayName": "es-beautifier",
+  "publisher": "",
+  "description": "vscode plugin for es-beautfier",
+  "version": "0.0.1",
+  "repository": "dai-shi/es-beautifier",
+  "dependencies": {
+    "es-beautifier": "latest"
+  },
+  "devDependencies": {
+    "vscode": "^1.0.3"
+  },
+  "activationEvents": [
+    "onCommand:extension.es-beautifier"
+  ],
+  "main": "./index.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.es-beautifier",
+        "title": "es-beautifier"
+      }
+    ]
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "keywords": [
+    "javascript",
+    "emcascript",
+    "eslint",
+    "beautifier",
+    "beautify"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "eslintConfig": {
+    "settings": {
+      "import/core-modules": [
+        "vscode"
+      ]
+    }
+  },
+  "license": "MIT"
+}
