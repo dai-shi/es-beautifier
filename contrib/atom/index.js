@@ -22,7 +22,7 @@ function beautify() {
 
 exports.activate = function activate() {
   this.subscriptions = new CompositeDisposable();
-  this.subscriptions.add(atom.commands.add('atom-workspace', 'es-beautifier', beautify));
+  this.subscriptions.add(atom.commands.add('atom-text-editor', 'es-beautifier', beautify));
 };
 
 exports.deactivate = function activate() {
