@@ -1,6 +1,10 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Comparison table in README
+- Basic atom package
+- Basic vscode plugin
 
 ## [0.4.0] - 2016-12-01
 ### Added
