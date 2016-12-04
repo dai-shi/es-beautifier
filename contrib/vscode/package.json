@@ -3,8 +3,11 @@
   "displayName": "es-beautifier",
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautfier",
-  "version": "0.0.3",
-  "repository": "dai-shi/es-beautifier",
+  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dai-shi/es-beautifier.git"
+  },
   "dependencies": {
     "es-beautifier": "latest"
   },
@@ -16,12 +19,10 @@
   ],
   "main": "./index.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "extension.es-beautifier",
-        "title": "es-beautifier"
-      }
-    ]
+    "commands": [{
+      "command": "extension.es-beautifier",
+      "title": "es-beautifier"
+    }]
   },
   "categories": [
     "Formatters"
