@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.5.0] - 2016-12-04
 ### Added
 - Comparison table in README
 - Basic atom package
@@ -19,6 +21,7 @@
 ## [0.2.6] - 2016-11-25
 ### Added
 - Custom jsx-multiline-attributes rule
+
 ### Changed
 - Better switch case one-line format
 - Improve jsx multiline element format
@@ -26,18 +29,21 @@
 ## [0.2.5] - 2016-11-18
 ### Added
 - Custom multiline-swich-cases rule
+
 ### Changed
 - Common fixingNodes in es-beautifier-state
 
 ## [0.2.4] - 2016-11-14
 ### Added
 - Class body multiline support
+
 ### Changed
 - Better multiline support
 
 ## [0.2.3] - 2016-11-10
 ### Added
 - First JSX element multiline rule
+
 ### Changed
 - Rename and tweak multiline-array-elements rule
 - Introduce es-beautifier-state
@@ -45,6 +51,7 @@
 ## [0.2.2] - 2016-11-08
 ### Added
 - Minimal integration test
+
 ### Changed
 - Default option for multiline block statements again
 - Simplify multiline-object-properties rule with object-curly-newline
@@ -67,6 +74,7 @@
 ### Added
 - Allow one line option in multiline-block-statements
 - Custom no-spaces-in-empty-block rule
+
 ### Misc
 - Update README.md
 
