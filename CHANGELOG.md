@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.5.1] - 2016-12-05
+### Added
+- Logo and badges in README
+
 ## [0.5.0] - 2016-12-04
 ### Added
 - Comparison table in README
