@@ -1,4 +1,4 @@
-# <table border="0"><tr><td><a href="https://www.npmjs.com/es-beautifier" target="_blank"><img alt="logo" src="https://dai-shi.github.io/es-beautifier/images/logo1.svg" height="64" /></a></td><td>es-beautifier</td></tr></table>
+# <a href="https://www.npmjs.com/es-beautifier" target="_blank"><img alt="logo" src="https://dai-shi.github.io/es-beautifier/images/logo1.svg" height="64" align="bottom" /></a>es-beautifier
 
 [![Build Status](https://travis-ci.org/dai-shi/es-beautifier.svg?branch=master)](https://travis-ci.org/dai-shi/es-beautifier)
 [![npm version](https://badge.fury.io/js/es-beautifier.svg)](https://badge.fury.io/js/es-beautifier)
