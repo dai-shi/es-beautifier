@@ -65,7 +65,7 @@ autocmd FileType javascript vnoremap <buffer> <Leader>e :call RangeEsBeautifier(
 
 Toggle the Command Palette and enter "es-beautifier".
 
-For the long term use, you might want to configure keybindings:
+For the long term use, you might want to configure keybindings, for example:
 ```
 'atom-text-editor':
   'shift-cmd-e': 'es-beautifier'
@@ -73,7 +73,16 @@ For the long term use, you might want to configure keybindings:
 
 ## Usage (Visual Studio Code)
 
-Help wanted.
+```
+ext install vscode-es-beautifier
+```
+
+Open the Command Palette and enter "es-beautifier".
+
+For the long term use, you might want to configure keybindings, for example:
+```
+  { "key": "shift+cmd+e", "command": "extension.es-beautifier", "when": "editorTextFocus" }
+```
 
 ## Usage (eslint-plugin)
 
