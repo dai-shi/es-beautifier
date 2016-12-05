@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- common multilineFixer library
 
 ## [0.5.1] - 2016-12-05
 ### Added
