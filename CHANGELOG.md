@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - common multilineFixer library
+- multiline-import-specifiers rule
 
 ## [0.5.1] - 2016-12-05
 ### Added
