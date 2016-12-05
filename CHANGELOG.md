@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.5.2] - 2016-12-06
 ### Added
 - common multilineFixer library
 - multiline-import-specifiers rule
