@@ -12,7 +12,7 @@ const execCLI = input =>
   });
 
 describe('classes', () => {
-  it('class deeclaration 1', () => {
+  it('class declaration 1', () => {
     const input = `
 class Hello{constructor(m){this.message=m;}say(){console.log(this.message);}}
 `;
@@ -25,6 +25,27 @@ class Hello {
     console.log(this.message);
   }
 }
+`;
+    assert.equal(execCLI(input), output);
+  });
+});
+
+describe('modules', () => {
+  it('import declaration 1', () => {
+    const input = `
+import {exampleA,exampleB,exampleC,exampleD,exampleE,exampleF,exampleG,exampleH} from 'example';
+`;
+    const output = `
+import {
+exampleA,
+exampleB,
+exampleC,
+exampleD,
+exampleE,
+exampleF,
+exampleG,
+exampleH,
+} from 'example';
 `;
     assert.equal(execCLI(input), output);
   });
