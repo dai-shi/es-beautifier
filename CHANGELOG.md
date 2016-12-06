@@ -1,8 +1,11 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.5.3] - 2016-12-07
 ### Changed
 - multiline-block-statements uses common multilineFixer
+- remove object-curly-newline rule from config
 
 ## [0.5.2] - 2016-12-06
 ### Added
