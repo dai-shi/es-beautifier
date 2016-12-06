@@ -12,12 +12,25 @@ const execCLI = input =>
   });
 
 describe('blocks', () => {
-  it('function expression 1', () => {
+  it('function declaration 1', () => {
     const input = `
 function f(){a();b();}
 `;
     const output = `
 function f() {
+  a();
+  b();
+}
+`;
+    assert.equal(execCLI(input), output);
+  });
+
+  it('function declaration 2', () => {
+    const input = `
+function f(){/* comment */a();b();}
+`;
+    const output = `
+function f() { /* comment */
   a();
   b();
 }

@@ -7,6 +7,7 @@ ruleTester.run('multiline-block-statements', rule, {
   valid: [
     'function f(){\na();\nb();\n}',
     'function f(){\na();\n}',
+    'function f(){/*comment*/\na();\n}',
   ],
   invalid: [{
     code: 'function f(){a();b();}',
