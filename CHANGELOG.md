@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- multiline-block-statements uses common multilineFixer
 
 ## [0.5.2] - 2016-12-06
 ### Added
