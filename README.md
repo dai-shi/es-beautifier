@@ -159,3 +159,7 @@ Here's more intuitive (biased) comparison in table:
 | Array in array | Yes         | No        | No          | Wierd      | Yes           |
 | Execution Time | Short       | Short     | Long        | Short      | Long          |
 | Completion     | Mature      | Good      | Young       | Good       | Young         |
+
+## Blogs
+
+- [ECMAScript beautifier based on eslint](https://medium.com/@dai_shi/ecmascript-beautifier-based-on-eslint-2e2005dda955)
