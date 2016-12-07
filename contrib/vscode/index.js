@@ -12,14 +12,19 @@ function execCLI(input) {
 function beautify() {
   const editor = vscode.window.activeTextEditor;
   if (editor) {
-    const text = editor.document.getText();
-    const beautified = execCLI(text);
-    editor.edit((builder) => {
-      const start = editor.document.positionAt(0);
-      const end = editor.document.positionAt(text.length);
-      const range = new vscode.Range(start, end);
-      builder.replace(range, beautified);
-    });
+    try {
+      const text = editor.document.getText();
+      const beautified = execCLI(text);
+      editor.edit((builder) => {
+        const start = editor.document.positionAt(0);
+        const end = editor.document.positionAt(text.length);
+        const range = new vscode.Range(start, end);
+        builder.replace(range, beautified);
+      });
+    } catch (e) {
+      console.error('es-beautifier failed:', e);
+      vscode.window.showInformationMessage('es-beautifier failed. See the cons  ole log in the DevTools.');
+    }
   }
 }
 
