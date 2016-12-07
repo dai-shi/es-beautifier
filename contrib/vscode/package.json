@@ -4,7 +4,7 @@
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
   "icon": "logo1.svg",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/es-beautifier.git"
@@ -16,12 +16,12 @@
     "vscode": "^1.0.3"
   },
   "activationEvents": [
-    "onCommand:extension.es-beautifier"
+    "onCommand:extension.esBeautifier"
   ],
   "main": "./index.js",
   "contributes": {
     "commands": [{
-      "command": "extension.es-beautifier",
+      "command": "extension.esBeautifier",
       "title": "es-beautifier"
     }]
   },

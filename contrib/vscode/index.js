@@ -24,6 +24,6 @@ function beautify() {
 }
 
 exports.activate = function activate(context) {
-  const disposable = vscode.commands.registerCommand('extension.es-beautifier', beautify);
+  const disposable = vscode.commands.registerCommand('extension.esBeautifier', beautify);
   context.subscriptions.push(disposable);
 };

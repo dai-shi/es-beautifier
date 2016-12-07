@@ -84,7 +84,7 @@ Open the Command Palette and enter "es-beautifier".
 
 For the long term use, you might want to configure keybindings, for example:
 ```
-  { "key": "shift+cmd+e", "command": "extension.es-beautifier", "when": "editorTextFocus" }
+  { "key": "shift+cmd+e", "command": "extension.esBeautifier", "when": "editorTextFocus" }
 ```
 
 ## Usage (eslint-plugin)
