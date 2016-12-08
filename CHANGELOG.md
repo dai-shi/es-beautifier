@@ -1,8 +1,11 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.5.4] - 2016-12-08
 ### Changed
 - fix vscode plugin (#4)
+- fix atom package
 
 ## [0.5.3] - 2016-12-07
 ### Changed
