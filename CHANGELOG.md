@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- fix vscode plugin (#4)
 
 ## [0.5.3] - 2016-12-07
 ### Changed
