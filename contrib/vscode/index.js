@@ -3,10 +3,8 @@ const execFileSync = require('child_process').execFileSync;
 const vscode = require('vscode');
 
 function execCLI(input) {
-  return execFileSync(path.resolve(__dirname, 'node_modules/es-beautifier/lib/cli.js'), {
-    input,
-    encoding: 'utf8',
-  });
+  const cli = path.resolve(__dirname, 'node_modules/es-beautifier/lib/cli.js');
+  return execFileSync('node', [cli], { input, encoding: 'utf8' });
 }
 
 function beautify() {
