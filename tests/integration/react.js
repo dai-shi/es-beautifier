@@ -45,4 +45,30 @@ const App = () => (
 `;
     assert.equal(execCLI(input), output);
   });
+
+  it('jsx 3', () => {
+    const input = `
+const App = () => (<div><span><a href="http://wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww">link</a></span><span className="cccccccccccccccccccccccccccccccccccccccccccccccccccccc">{string}</span><span className="dddddddddddddddddddddddddddddddddddddddddddddddddddddd">value={value}</span></div>);
+`;
+    const output = `
+const App = () => (
+  <div>
+    <span>
+      <a href="http://wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww">link</a>
+    </span>
+    <span
+      className="cccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    >
+      {string}
+    </span>
+    <span
+      className="dddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    >
+      value={value}
+    </span>
+  </div>
+);
+`;
+    assert.equal(execCLI(input), output);
+  });
 });
