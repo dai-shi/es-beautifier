@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Changed
 - modify jsx-separateline-literals rule to also handle expression containers
+- rewrite multiline-class-body rules with common function
 
 ## [0.5.4] - 2016-12-08
 ### Changed
