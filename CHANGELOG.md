@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.6.0] - 2016-12-11
 ### Changed
 - update eslint 3.12.0
 - modify jsx-separateline-literals rule to also handle expression containers
