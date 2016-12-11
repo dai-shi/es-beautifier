@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/es-beautifier.svg)](https://badge.fury.io/js/es-beautifier)
 [![vim](https://img.shields.io/badge/vim-available-green.svg)](https://github.com/dai-shi/es-beautifier/blob/master/contrib/vim/doc/es-beautifier.txt)
 [![atom](https://img.shields.io/apm/v/es-beautifier.svg)](https://atom.io/packages/es-beautifier)
-[![vscode](https://img.shields.io/badge/vscode-ready-green.svg)](https://marketplace.visualstudio.com/items?itemName=dai-shi.vscode-es-beautifier)
+[![vscode](http://vsmarketplacebadge.apphb.com/version-short/dai-shi.vscode-es-beautifier.svg)](https://marketplace.visualstudio.com/items?itemName=dai-shi.vscode-es-beautifier)
 
 ECMAScript beautifier based on [eslint](http://eslint.org/)
 
