@@ -16,14 +16,18 @@
     "vscode": "^1.0.3"
   },
   "activationEvents": [
-    "onCommand:extension.esBeautifier"
+    "onLanguage:es-beautifier"
   ],
   "main": "./index.js",
   "contributes": {
-    "commands": [{
-      "command": "extension.esBeautifier",
-      "title": "es-beautifier"
-    }]
+    "languages": [{
+      "id": "es-beautifier",
+      "aliases": ["JavaScript (es-beautifier)"],
+      "extensions": ["js", "jsx"]
+    }],
+    "configuration": {
+      "javascript.format.enable": true
+    }
   },
   "categories": [
     "Formatters"
