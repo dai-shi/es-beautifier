@@ -1,7 +1,7 @@
 # <a href="https://github.com/dai-shi/es-beautifier"><img alt="logo" src="https://dai-shi.github.io/es-beautifier/images/logo2.svg" height="64" /></a>
 
 [![Build Status](https://travis-ci.org/dai-shi/es-beautifier.svg?branch=master)](https://travis-ci.org/dai-shi/es-beautifier)
-[![npm version](https://badge.fury.io/js/es-beautifier.svg)](https://badge.fury.io/js/es-beautifier)
+[![npm](https://img.shields.io/npm/v/es-beautifier.svg)](https://www.npmjs.com/package/es-beautifier)
 [![vim](https://img.shields.io/badge/vim-available-green.svg)](https://github.com/dai-shi/es-beautifier/blob/master/contrib/vim/doc/es-beautifier.txt)
 [![atom](https://img.shields.io/apm/v/es-beautifier.svg)](https://atom.io/packages/es-beautifier)
 [![vscode](http://vsmarketplacebadge.apphb.com/version-short/dai-shi.vscode-es-beautifier.svg)](https://marketplace.visualstudio.com/items?itemName=dai-shi.vscode-es-beautifier)
