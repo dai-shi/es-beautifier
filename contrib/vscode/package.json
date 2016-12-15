@@ -24,10 +24,7 @@
       "id": "es-beautifier",
       "aliases": ["JavaScript (es-beautifier)"],
       "extensions": ["js", "jsx"]
-    }],
-    "configuration": {
-      "javascript.format.enable": true
-    }
+    }]
   },
   "categories": [
     "Formatters"
