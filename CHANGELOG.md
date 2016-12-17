@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- update vscode plugin as formatter (#6)
 
 ## [0.6.0] - 2016-12-11
 ### Changed
