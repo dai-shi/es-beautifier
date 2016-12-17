@@ -80,11 +80,14 @@ For the long term use, you might want to configure keybindings, for example:
 ext install vscode-es-beautifier
 ```
 
-Open the Command Palette and enter "es-beautifier".
+Open the Change Language Mode (Cmd-K M / Ctrl-K M) and select "es-beautifier".
+You can format code just like the original formatter.
 
-For the long term use, you might want to configure keybindings, for example:
+For the long term use, you might want to configure it in `settings.json`:
 ```
-  { "key": "shift+cmd+e", "command": "extension.esBeautifier", "when": "editorTextFocus" }
+{
+  "files.associations": {"*.js":"es-beautifier"}
+}
 ```
 
 ## Usage (eslint-plugin)
