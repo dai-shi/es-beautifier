@@ -23,7 +23,20 @@
     "languages": [{
       "id": "es-beautifier",
       "aliases": ["JavaScript (es-beautifier)"],
-      "extensions": ["js", "jsx"]
+      "extensions": ["js", "jsx"],
+      "configuration": "./vendor/language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "es-beautifier",
+      "scopeName": "source.js",
+      "path": "./vendor/JavaScript.tmLanguage.json"
+    }, {
+      "scopeName": "source.js.regexp",
+      "path": "./vendor/Regular Expressions (JavaScript).tmLanguage"
+    }],
+    "snippets": [{
+      "language": "es-beautifier",
+      "path": "./vendor/javascriptreact.json"
     }]
   },
   "categories": [
