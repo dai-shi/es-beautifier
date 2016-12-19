@@ -4,7 +4,7 @@
 
 ## [0.6.1] - 2016-12-19
 ### Changed
-- change parser options to accept es2015 beyond
+- change parser options to accept beyond es2015
 - update vscode plugin as formatter (#6)
 
 ## [0.6.0] - 2016-12-11
