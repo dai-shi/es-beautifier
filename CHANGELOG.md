@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.6.2] - 2017-01-07
+### Changed
+- update eslint 3.13.0
+
 ## [0.6.1] - 2016-12-19
 ### Changed
 - change parser options to accept beyond es2015
