@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Unibeautify beautifier
 
 ## [0.6.2] - 2017-01-07
 ### Changed
