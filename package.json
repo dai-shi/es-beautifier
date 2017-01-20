@@ -19,16 +19,16 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "eslint": "^3.13.0",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint": "^3.14.0",
+    "eslint-plugin-react": "^6.9.0"
   },
   "devDependencies": {
     "esformatter": "latest",
-    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
     "js-beautify": "latest",
-    "mocha": "^3.1.2",
+    "mocha": "^3.2.0",
     "prettydiff": "latest",
     "uglify-js": "mishoo/UglifyJS2.git#harmony"
   },

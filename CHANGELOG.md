@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- update eslint 3.14.0 and other dependencies
 ### Added
 - Unibeautify beautifier
 
