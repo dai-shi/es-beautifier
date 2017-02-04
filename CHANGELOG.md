@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.6.4] - 2017-02-04
 ### Changed
 - CLI accepts --use-eslintrc option
 
