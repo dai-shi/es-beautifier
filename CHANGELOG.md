@@ -1,10 +1,13 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- CLI accepts --use-eslintrc option
 
 ## [0.6.3] - 2017-01-21
 ### Changed
 - update eslint 3.14.0 and other dependencies
+
 ### Added
 - Unibeautify beautifier
 
