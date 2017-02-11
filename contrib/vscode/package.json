@@ -4,13 +4,13 @@
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
   "icon": "logo1.svg",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/es-beautifier.git"
   },
   "dependencies": {
-    "es-beautifier": "^0.6.4"
+    "es-beautifier": "^0.6.5"
   },
   "devDependencies": {
     "vscode": "^1.0.3"
