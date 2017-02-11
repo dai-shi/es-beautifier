@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Changed
 - vscode config for useEslintrc
+- fix a bug #10
 
 ## [0.6.4] - 2017-02-04
 ### Changed
