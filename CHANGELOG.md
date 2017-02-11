@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- atom config for useEslintrc
 
 ## [0.6.5] - 2017-02-11
 ### Changed
