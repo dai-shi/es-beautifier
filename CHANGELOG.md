@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.6.5] - 2017-02-11
 ### Changed
 - vscode config for useEslintrc
 - fix a bug #10
