@@ -16,6 +16,7 @@ describe('issue #10', () => {
     const input = `
 x = (<Marker lat={lat} lng={lng} onMarkerClick={onMarkerClick} {...entry}/>);
 `;
+    // TODO there is still a problem with beautifying the closing paren.
     const output = `
 x = (
   <Marker
