@@ -10,12 +10,13 @@
     "lint": "eslint lib tests",
     "unit-tests": "mocha 'tests/lib/**/*.js'",
     "integration-tests": "mocha 'tests/integration/**/*.js'",
-    "examples": "npm run ex:js-beautify; npm run ex:uglifyjs; npm run ex:esformatter; npm run ex:prettydiff; npm run ex:es-beautifier",
+    "examples": "npm run ex:js-beautify; npm run ex:uglifyjs; npm run ex:esformatter; npm run ex:prettydiff; npm run ex:es-beautifier; npm run ex:prettier",
     "ex:js-beautify": "js-beautify -s 2 -X < ${FILE:-'examples/a.js'} && echo",
     "ex:uglifyjs": "uglifyjs -b indent-level=2 < ${FILE:-'examples/a.js'}",
     "ex:esformatter": "esformatter < ${FILE:-'examples/a.js'}",
     "ex:prettydiff": "prettydiff lang:javascript mode:beautify insize:2 source:${FILE:-'examples/a.js'}",
-    "ex:es-beautifier": "./lib/cli.js < ${FILE:-'examples/a.js'}"
+    "ex:es-beautifier": "./lib/cli.js < ${FILE:-'examples/a.js'}",
+    "ex:prettier": "prettier --single-quote --stdin < ${FILE:-'examples/a.js'}"
   },
   "dependencies": {
     "commander": "^2.9.0",
@@ -29,6 +30,7 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "js-beautify": "latest",
     "mocha": "^3.2.0",
+    "prettier": "latest",
     "prettydiff": "latest",
     "uglify-js": "mishoo/UglifyJS2.git#harmony"
   },
@@ -40,12 +42,7 @@
     "rules": {
       "global-require": 0,
       "no-console": 0,
-      "import/no-extraneous-dependencies": [
-        "error",
-        {
-          "devDependencies": true
-        }
-      ]
+      "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
     }
   },
   "keywords": [
