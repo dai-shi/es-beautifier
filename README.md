@@ -157,7 +157,7 @@ Here's more intuitive (biased) comparison in table:
 |                | js-beautify | uglify-js | esformatter | prettydiff | es-beautifier | prettier |
 |----------------|-------------|-----------|-------------|------------|---------------|---------------|
 | ES2015 Parser  | Own         | Own       | Esprima     | Own        | Espree        |  Babylon |
-| Customization  | Limited     | No        | Plugin      | Somewhat   | Plugin        | No       |
+| Customization  | Limited     | No        | Plugin      | Somewhat   | Plugin        | Limited  |
 | Comments       | OK          | Removed   | OK          | OK         | OK            | OK       |
 | JSX Support    | No          | Error     | No          | Limited    | Yes           | Yes      |
 | Array in array | Yes         | No        | No          | Wierd      | Yes           | Yes      |
