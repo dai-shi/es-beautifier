@@ -134,3 +134,21 @@ var x = {
     assert.equal(execCLI(input), output);
   });
 });
+
+describe('switch statements', () => {
+  it('switch statement 1', () => {
+    const input = `
+function f(){switch(x){case 1:return'1';case 2:return'2';default:return'0';}}
+`;
+    const output = `
+function f() {
+  switch (x) {
+    case 1: return '1';
+    case 2: return '2';
+    default: return '0';
+  }
+}
+`;
+    assert.equal(execCLI(input), output);
+  });
+});
