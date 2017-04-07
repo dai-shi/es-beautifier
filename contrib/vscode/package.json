@@ -25,10 +25,6 @@
       "aliases": ["JavaScript (es-beautifier)"],
       "extensions": ["js", "jsx"],
       "configuration": "./vendor/javascript-language-configuration.json"
-    }, {
-      "id": "jsx-tags",
-      "aliases": [],
-      "configuration": "./vendor/tags-language-configuration.json"
     }],
     "grammars": [{
       "language": "es-beautifier",
