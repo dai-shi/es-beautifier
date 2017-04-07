@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.7.0] - 2017-04-07
 ### Changed
 - atom config for useEslintrc
 - fix switch rule conflicting with brace-style
