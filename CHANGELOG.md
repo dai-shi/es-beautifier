@@ -4,6 +4,8 @@
 ### Changed
 - atom config for useEslintrc
 - fix switch rule conflicting with brace-style
+- remove semi rule from the default config
+- README for useEslintrc config
 
 ## [0.6.5] - 2017-02-11
 ### Changed
