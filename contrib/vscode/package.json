@@ -10,7 +10,7 @@
     "url": "https://github.com/dai-shi/es-beautifier.git"
   },
   "dependencies": {
-    "es-beautifier": "^0.6.5"
+    "es-beautifier": "^0.7.0"
   },
   "devDependencies": {
     "vscode": "^1.0.3"
