@@ -74,6 +74,13 @@ For the long term use, you might want to configure keybindings, for example:
   'shift-cmd-e': 'es-beautifier'
 ```
 
+If you want to use your eslintrc files do the following, but please be reminded
+that it may conflict with the beautifier rule and may cause unexpected behavior.
+```
+'es-beautifier':
+  'useEslintrc': true
+```
+
 ## Usage (Visual Studio Code)
 
 ```
@@ -87,6 +94,14 @@ For the long term use, you might want to configure it in `settings.json`:
 ```
 {
   "files.associations": {"*.js":"es-beautifier"}
+}
+```
+
+If you want to use your eslintrc files add the following, but please be reminded
+that it may conflict with the beautifier rule and may cause unexpected behavior.
+```
+"[es-beautifier]": {
+  "useEslintrc": true
 }
 ```
 
