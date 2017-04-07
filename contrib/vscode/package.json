@@ -4,7 +4,7 @@
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
   "icon": "logo1.svg",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/es-beautifier.git"
