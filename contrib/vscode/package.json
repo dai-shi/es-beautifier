@@ -3,7 +3,7 @@
   "displayName": "es-beautifier",
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
-  "icon": "logo1.svg",
+  "icon": "logo1.png",
   "version": "0.2.4",
   "repository": {
     "type": "git",
