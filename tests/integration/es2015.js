@@ -37,14 +37,14 @@ import {exampleA,exampleB,exampleC,exampleD,exampleE,exampleF,exampleG,exampleH}
 `;
     const output = `
 import {
-exampleA,
-exampleB,
-exampleC,
-exampleD,
-exampleE,
-exampleF,
-exampleG,
-exampleH,
+  exampleA,
+  exampleB,
+  exampleC,
+  exampleD,
+  exampleE,
+  exampleF,
+  exampleG,
+  exampleH,
 } from 'example';
 `;
     assert.equal(execCLI(input), output);
