@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Changed
-- update eslint 3.19.0
+- update eslint 4.3.0
 
 ## [0.7.0] - 2017-04-07
 ### Changed
