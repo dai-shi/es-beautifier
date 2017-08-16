@@ -4,13 +4,13 @@
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
   "icon": "logo1.png",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/es-beautifier.git"
   },
   "dependencies": {
-    "es-beautifier": "^0.7.0"
+    "es-beautifier": "^1.0.0"
   },
   "devDependencies": {
     "vscode": "^1.0.3"
@@ -20,28 +20,40 @@
   ],
   "main": "./index.js",
   "contributes": {
-    "languages": [{
-      "id": "es-beautifier",
-      "aliases": ["JavaScript (es-beautifier)"],
-      "extensions": ["js", "jsx"],
-      "configuration": "./vendor/javascript-language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "es-beautifier",
-      "scopeName": "source.js",
-      "path": "./vendor/JavaScript.tmLanguage.json",
-      "embeddedLanguages": {
-        "meta.tag.js": "jsx-tags",
-        "meta.tag.without-attributes.js": "jsx-tags"
+    "languages": [
+      {
+        "id": "es-beautifier",
+        "aliases": [
+          "JavaScript (es-beautifier)"
+        ],
+        "extensions": [
+          "js",
+          "jsx"
+        ],
+        "configuration": "./vendor/javascript-language-configuration.json"
       }
-    }, {
-      "scopeName": "source.js.regexp",
-      "path": "./vendor/Regular Expressions (JavaScript).tmLanguage"
-    }],
-    "snippets": [{
-      "language": "es-beautifier",
-      "path": "./vendor/javascriptreact.json"
-    }]
+    ],
+    "grammars": [
+      {
+        "language": "es-beautifier",
+        "scopeName": "source.js",
+        "path": "./vendor/JavaScript.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.tag.js": "jsx-tags",
+          "meta.tag.without-attributes.js": "jsx-tags"
+        }
+      },
+      {
+        "scopeName": "source.js.regexp",
+        "path": "./vendor/Regular Expressions (JavaScript).tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "es-beautifier",
+        "path": "./vendor/javascriptreact.json"
+      }
+    ]
   },
   "categories": [
     "Formatters"
