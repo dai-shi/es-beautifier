@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Changed
 - update eslint 4.3.0
+- fix weird multiline behavior
 
 ## [0.7.0] - 2017-04-07
 ### Changed
