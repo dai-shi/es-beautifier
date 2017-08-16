@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+
+## [1.0.0] - 2017-08-16
 ### Changed
 - update eslint 4.3.0
 - fix weird multiline behavior
