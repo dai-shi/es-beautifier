@@ -1,5 +1,5 @@
+const { RuleTester } = require('eslint');
 const rule = require('../../../lib/rules/multiline-switch-cases.js');
-const RuleTester = require('eslint').RuleTester;
 
 const ruleTester = new RuleTester();
 
@@ -15,9 +15,9 @@ ruleTester.run('multiline-switch-cases', rule, {
   invalid: [{
     code: 'switch(x){case 1: y=1;z=1;break;case 2: y=2;z=2;break;}',
     errors: [t2, t2, t2, t1, t2, t2, t2].map(type => ({
-      message: type === t1 ?
-        'Switch case in a switch statement must be on a new line.' :
-        'Statement in a switch case must be on a new line.',
+      message: type === t1
+        ? 'Switch case in a switch statement must be on a new line.'
+        : 'Statement in a switch case must be on a new line.',
       type,
     })),
   }, {

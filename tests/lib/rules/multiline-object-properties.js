@@ -1,5 +1,5 @@
+const { RuleTester } = require('eslint');
 const rule = require('../../../lib/rules/multiline-object-properties.js');
-const RuleTester = require('eslint').RuleTester;
 
 const ruleTester = new RuleTester();
 

@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-07-23
+### Changed
+- update all dependencies
+
 ## [1.0.0] - 2017-08-16
 ### Changed
 - update eslint 4.3.0

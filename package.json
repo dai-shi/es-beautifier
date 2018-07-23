@@ -1,7 +1,7 @@
 {
   "name": "es-beautifier",
   "description": "ECMAScript beautifier based on eslint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "dai-shi/es-beautifier",
   "main": "./lib/main.js",
   "bin": "./lib/cli.js",
@@ -19,17 +19,17 @@
     "ex:prettier": "prettier --single-quote --stdin < ${FILE:-'examples/a.js'}"
   },
   "dependencies": {
-    "commander": "^2.9.0",
-    "eslint": "^4.3.0",
-    "eslint-plugin-react": "^7.1.0"
+    "commander": "^2.16.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-react": "^7.10.0"
   },
   "devDependencies": {
     "esformatter": "latest",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
     "js-beautify": "latest",
-    "mocha": "^3.2.0",
+    "mocha": "^5.2.0",
     "prettier": "latest",
     "prettydiff": "latest",
     "uglify-es": "latest"
@@ -47,7 +47,8 @@
         {
           "devDependencies": true
         }
-      ]
+      ],
+      "react/destructuring-assignment": 0
     }
   },
   "keywords": [
