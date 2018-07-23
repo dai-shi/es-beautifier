@@ -4,13 +4,13 @@
   "publisher": "dai-shi",
   "description": "vscode plugin for es-beautifier",
   "icon": "logo1.png",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/es-beautifier.git"
   },
   "dependencies": {
-    "es-beautifier": "^1.0.0"
+    "es-beautifier": "^1.1.0"
   },
   "devDependencies": {
     "vscode": "^1.0.3"
@@ -51,7 +51,7 @@
     "snippets": [
       {
         "language": "es-beautifier",
-        "path": "./vendor/javascriptreact.json"
+        "path": "./vendor/javascript.json"
       }
     ]
   },
