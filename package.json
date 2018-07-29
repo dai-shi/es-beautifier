@@ -1,7 +1,7 @@
 {
   "name": "es-beautifier",
   "description": "atom package for es-beautfier",
-  "version": "1.0.0-atom",
+  "version": "1.1.0-atom",
   "repository": "dai-shi/es-beautifier#atom",
   "dependencies": {
     "es-beautifier": "^1.1.0"
