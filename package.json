@@ -1,7 +1,7 @@
 {
   "name": "es-beautifier",
   "description": "ECMAScript beautifier based on eslint",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "repository": "dai-shi/es-beautifier",
   "main": "./lib/main.js",
   "bin": "./lib/cli.js",

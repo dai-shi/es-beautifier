@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2019-04-16
+### Changed
+- fix deprecation warning (#18)
+- update all dependencies
+
 ## [1.1.0] - 2018-07-23
 ### Changed
 - update all dependencies
